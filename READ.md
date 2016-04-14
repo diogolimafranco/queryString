@@ -11,4 +11,4 @@ Basta incluir a lib no código e executar a function `queryString()`.
 	var param = queryString('http://example.com/query=value');
 	// param{query:value}
 ```
-> Caso não haja parâmentros query string na URI, a function retornará null
+> Caso não haja parâmentros query string na URI, a function retornará `null`
