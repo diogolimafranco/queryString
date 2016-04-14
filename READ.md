@@ -9,5 +9,6 @@ Basta incluir a lib no código e executar a function `queryString()`.
 ### Exemplo
 ```javascript
 	var param = queryString('http://example.com/query=value');
-	// Object{query:value}
+	// param{query:value}
 ```
+> Caso não haja parâmentros query string na URI, a function retornará null
